@@ -18,6 +18,6 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore "$GITHUB_WORKSPACE/ManagedBass.FftSignalProvider.sln"
+      run: dotnet restore "$GITHUB_WORKSPACE/ManagedBass.FftSignalProvider/ManagedBass.FftSignalProvider.sln"
     - name: Build
-      run: dotnet build --no-restore "$GITHUB_WORKSPACE/ManagedBass.FftSignalProvider.sln"
+      run: dotnet build --no-restore "$GITHUB_WORKSPACE/ManagedBass.FftSignalProvider/ManagedBass.FftSignalProvider.sln"
