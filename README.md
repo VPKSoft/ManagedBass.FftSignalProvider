@@ -1,6 +1,8 @@
 # ManagedBass.FftSignalProvider
 A library to use [ManagedBass](https://github.com/ManagedBass/ManagedBass) to read playback or microphone data with FFT windowing functions.
 
+[![.NET Core Build](https://github.com/VPKSoft/ManagedBass.FftSignalProvider/actions/workflows/dotnet.yml/badge.svg)](https://github.com/VPKSoft/ManagedBass.FftSignalProvider/actions/workflows/dotnet.yml)
+
 ## Setting it up
 The software requires [BASS](http://www.un4seen.com) libraries as they are not allowed the be distributed in embeded form. The sample application also contains the libraries.
 
